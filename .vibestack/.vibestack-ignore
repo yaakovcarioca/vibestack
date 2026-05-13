@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/

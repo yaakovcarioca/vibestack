@@ -1,20 +1,33 @@
 name: vibestack
 version: 1.0.0
+schema: https://vibestack.dev/schema/v1
 
-principles:
-  - model-agnostic
-  - token-efficient
-  - modular
-  - portable
+identity:
+  statement: universal ai operational context layer
+  motto: the model changes, the context remains
 
-coming_soon:
-  - openclaw_support
+compatibility:
+  runtimes:
+    - claude-code
+    - gemini-cli
+    - codex
+    - cursor
+    - openclaude
+    - ollama
+    - openhands
+    - roo
+    - cline
+    - aider
+  upcoming:
+    - openclaw
 
-default_stack:
-  frontend: react-vite
-  backend: fastify
-  database: postgres
-  orm: drizzle
-  queue: bullmq
-  auth: better-auth
-  ai_gateway: litellm
+defaults:
+  stack:
+    frontend: react-vite-typescript-tailwind
+    backend: node-fastify
+    database: postgres
+    orm: drizzle
+    queue: redis-bullmq
+    auth: better-auth
+    ai_gateway: litellm
+    observability: posthog

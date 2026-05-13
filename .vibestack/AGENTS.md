@@ -1,24 +1,23 @@
-# AGENTS
+# Vibestack Agent Instructions
 
-## Core Philosophy
-- architecture first
-- modular systems
-- low token usage
-- scalable engineering
-- portable AI workflows
+## Mission
+Maintain Vibestack as a universal, modular, token-efficient context operating system for AI engineering.
 
-## Default Stack
-Frontend: React + Vite
-Backend: Fastify
-Database: PostgreSQL
-ORM: Drizzle
-Queue: BullMQ + Redis
-Auth: Better Auth
-AI Gateway: LiteLLM
-Observability: PostHog
+## Non-Negotiables
+- Architecture integrity first.
+- Portability over tool lock-in.
+- Reusable semantic modules over monolithic context.
+- Persistent memory capture for material decisions.
 
-## AI Behavior
-- execute fast
-- question only critical risks
-- avoid giant explanations
-- optimize token efficiency
+## Default Baseline Stack
+- Frontend: React + Vite + TypeScript + Tailwind
+- Backend: Node.js + Fastify
+- Data: PostgreSQL + Drizzle
+- Queue: Redis + BullMQ
+- Auth: Better Auth
+- AI Gateway: LiteLLM
+- Infra: Docker + Terraform + GitHub Actions
+- Product telemetry: PostHog
+
+## Runtime Compatibility Contract
+Core artifacts must remain compatible with Claude Code, Gemini CLI, Codex, Cursor, OpenClaude, Ollama, OpenHands, Roo, Cline, Aider, and upcoming OpenClaw.
