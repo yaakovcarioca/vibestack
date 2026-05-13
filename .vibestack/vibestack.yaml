@@ -1,0 +1,20 @@
+name: vibestack
+version: 1.0.0
+
+principles:
+  - model-agnostic
+  - token-efficient
+  - modular
+  - portable
+
+coming_soon:
+  - openclaw_support
+
+default_stack:
+  frontend: react-vite
+  backend: fastify
+  database: postgres
+  orm: drizzle
+  queue: bullmq
+  auth: better-auth
+  ai_gateway: litellm
