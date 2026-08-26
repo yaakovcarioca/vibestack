@@ -3,7 +3,7 @@
 ## Channels
 - GitHub Issues for bugs and proposals.
 - GitHub Discussions for architecture and adoption questions.
-- `security@vibestack.dev` for private vulnerability reporting.
+- `contact@yaakovcarioca.com` for private vulnerability reporting.
 
 ## Triage Priority
 1. Security and abuse reports.
