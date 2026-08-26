@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Reporting
-Report vulnerabilities to `security@vibestack.dev` with reproduction steps, affected artifacts, and threat impact.
+Report vulnerabilities to `contact@yaakovcarioca.com` with reproduction steps, affected artifacts, and threat impact.
 
 ## Response Targets
 - Acknowledge within 72 hours.
